@@ -1,0 +1,37 @@
+{
+    "englishTitle" : "Vegetables",
+    "gaeilgeTitle" : "Glasrai",
+    "description" : "Various popular vegetables",
+    "items" : [
+        {
+            "gaeilge" : "práta",
+            "english" : "potato",
+            "pronunciation" : "pra-tah",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "prátaí",
+            "english" : "potatos",
+            "pronunciation" : "pra-tee",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "brocailí",
+            "english" : "broccoli",
+            "pronunciation" : "broc-al-yee",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "cairéad",
+            "english" : "carrot",
+            "pronunciation" : "car-aid",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "cairéid",
+            "english" : "carrots",
+            "pronunciation" : "car-age",
+            "audio" : ""
+        }
+    ]
+}

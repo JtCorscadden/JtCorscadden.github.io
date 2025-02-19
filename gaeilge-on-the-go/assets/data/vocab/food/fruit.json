@@ -1,0 +1,43 @@
+{
+    "englishTitle" : "Fruit",
+    "gaeilgeTitle" : "Torthai",
+    "description" : "Various popular fruits",
+    "items" : [
+        {
+            "gaeilge" : "silín",
+            "english" : "cherry",
+            "pronunciation" : "shill-een",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "silíní",
+            "english" : "cherries",
+            "pronunciation" : "shill-een-e",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "úll",
+            "english" : "apple",
+            "pronunciation" : "ool",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "úlla",
+            "english" : "apples",
+            "pronunciation" : "ool-ah",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "banana",
+            "english" : "banana",
+            "pronunciation" : "ba-na-na",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "bananaí",
+            "english" : "bananas",
+            "pronunciation" : "ba-na-nee",
+            "audio" : ""
+        }
+    ]
+}
