@@ -11,34 +11,6 @@ export default function FoodAndDrink() {
         {
             "text" : "Fruit",
             "route" : "/topics/vocabulary/fooddrink/fruit-topic",
-        },
-        {
-            "text" : "Another",
-            "route" : "/topics/vocabulary/fooddrink/fruit-topic"
-        },
-        {
-            "text" : "Another2",
-            "route" : "/topics/vocabulary/fooddrink/fruit-topic"
-        },
-        {
-            "text" : "Another3",
-            "route" : "/topics/vocabulary/fooddrink/fruit-topic"
-        },
-        {
-            "text" : "Another4",
-            "route" : "/topics/vocabulary/fooddrink/fruit-topic"
-        },
-        {
-            "text" : "Another5",
-            "route" : "/topics/vocabulary/fooddrink/fruit-topic"
-        },
-        {
-            "text" : "Another6",
-            "route" : "/topics/vocabulary/fooddrink/fruit-topic"
-        },
-        {
-            "text" : "Another7",
-            "route" : "/topics/vocabulary/fooddrink/fruit-topic"
         }
     ];
 

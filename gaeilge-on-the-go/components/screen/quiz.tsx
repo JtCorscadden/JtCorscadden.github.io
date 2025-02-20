@@ -2,36 +2,39 @@ import React, { useState, useRef } from 'react';
 import { View, SafeAreaView, StyleSheet, Text, Animated, TouchableOpacity } from 'react-native';
 import BottomButtons from '@/components/navigation/bottom-buttons';
 
-const getRandomItems = (array, count) => {
-    // Shuffle the array using Fisher-Yates algorithm
-    const shuffled = array.slice().sort(() => Math.random() - 0.5);
-    
-    // Return the first 'count' elements
-    return shuffled.slice(0, count);
-};
-
-const fadeIn = () => {
-    setVisible(true); // Set visible so the Text is rendered
-    Animated.timing(fadeAnim, {
-      toValue: 1,
-      duration: 500, // Fade-in duration in ms
-      useNativeDriver: true,
-    }).start();
-};
-
 let currentItemIndex = 0;
 
 export default function Quiz( { lesson } ) {
+
+    const getRandomItems = (array, count) => {
+        // Shuffle the array using Fisher-Yates algorithm
+        const shuffled = array.slice().sort(() => Math.random() - 0.5);
+        
+        // Return the first 'count' elements
+        return shuffled.slice(0, count);
+    };
+    
+    const fadeIn = () => {
+        setVisible(true); // Set visible so the Text is rendered
+        Animated.timing(fadeAnim, {
+          toValue: 1,
+          duration: 500, // Fade-in duration in ms
+          useNativeDriver: true,
+        }).start();
+    };
 
     let items = lesson[ 'items' ];
     
     let quizQuestions = 10;
     quizQuestions = quizQuestions > items.length ? items.length : quizQuestions;
-    let quizItems = getRandomItems( items, quizQuestions );
 
-    console.log( 'quiz items', quizItems )
+    //let quizItems = getRandomItems( items, quizQuestions );
 
-    const [currentItem, setCurrentItem] = useState( items[ currentItemIndex ] );
+    const [quizItems] = useState(getRandomItems(items, quizQuestions));
+    const [currentItem, setCurrentItem] = useState(quizItems[currentItemIndex]);
+
+
+    //const [currentItem, setCurrentItem] = useState( items[ currentItemIndex ] );
 
     const [visible, setVisible] = useState(false);
 
@@ -44,8 +47,6 @@ export default function Quiz( { lesson } ) {
         if ( currentItemIndex < 0 ) {
             currentItemIndex = totalItems - 1;
         }
-        console.log( currentItemIndex );
-        console.log( currentItem );
         setVisible( false);
         updateItemState( quizItems[ currentItemIndex ] );
     
@@ -58,8 +59,6 @@ export default function Quiz( { lesson } ) {
         if ( currentItemIndex >= totalItems ) {
             currentItemIndex = 0;
         }
-        console.log( currentItemIndex );
-        console.log( currentItem );
         setVisible( false);
         updateItemState( quizItems[ currentItemIndex ] );
     
