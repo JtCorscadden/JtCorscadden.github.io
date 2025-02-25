@@ -32,6 +32,66 @@
             "english" : "carrots",
             "pronunciation" : "car-age",
             "audio" : ""
+        },
+        {
+            "gaeilge" : "béacan",
+            "english" : "mushroom",
+            "pronunciation" : "beck-ann",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "béacain",
+            "english" : "mushrooms",
+            "pronunciation" : "beck-ayn",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "leitís",
+            "english" : "lettuce",
+            "pronunciation" : "lett-eesh",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "piobar",
+            "english" : "pepper",
+            "pronunciation" : "pebber",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "piobair",
+            "english" : "peppers",
+            "pronunciation" : "pebber",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "cainneann",
+            "english" : "leek",
+            "pronunciation" : "can-ann",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "oinniún",
+            "english" : "onion",
+            "pronunciation" : "un-yuun",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "oinniúin",
+            "english" : "onions",
+            "pronunciation" : "un-yuun",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "piseanna",
+            "english" : "peas",
+            "pronunciation" : "pish-in-a",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "arbhar milis",
+            "english" : "sweetcorn",
+            "pronunciation" : "awer milish",
+            "audio" : ""
         }
     ]
 }

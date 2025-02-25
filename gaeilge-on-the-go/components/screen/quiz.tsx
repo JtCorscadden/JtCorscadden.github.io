@@ -25,8 +25,7 @@ export default function Quiz( { lesson } ) {
 
     let items = lesson[ 'items' ];
     
-    let quizQuestions = 10;
-    quizQuestions = quizQuestions > items.length ? items.length : quizQuestions;
+    const quizQuestions = items.length;
 
     //let quizItems = getRandomItems( items, quizQuestions );
 
@@ -88,9 +87,14 @@ export default function Quiz( { lesson } ) {
                     fadeIn();
                 }}>
                 {visible && (
-                    <Animated.Text style={[{ opacity: fadeAnim, fontSize: 24 }, styles.gaeilgeText]}>
+                    <View>
+                        <Animated.Text style={[{ opacity: fadeAnim, fontSize: 24 }, styles.gaeilgeText]}>
                         {currentItem.gaeilge}
                     </Animated.Text>
+                    <Animated.Text style={[ { opacity: fadeAnim }, styles.pronunciationText ]}>
+                        {currentItem.pronunciation}
+                    </Animated.Text>
+                    </View>
                     )}
                 </TouchableOpacity>
 

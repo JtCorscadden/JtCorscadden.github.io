@@ -38,6 +38,60 @@
             "english" : "bananas",
             "pronunciation" : "ba-na-nee",
             "audio" : ""
+        },
+        {
+            "gaeilge" : "fíonchaora",
+            "english" : "grapes",
+            "pronunciation" : "fain-heera",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "mealbhacán",
+            "english" : "melon",
+            "pronunciation" : "melv-a-can",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "tráta",
+            "english" : "tomato",
+            "pronunciation" : "trata",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "trátaí",
+            "english" : "tomatoes",
+            "pronunciation" : "tratee",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "anann",
+            "english" : "pineapple",
+            "pronunciation" : "anann",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "líomóid",
+            "english" : "lemon",
+            "pronunciation" : "leo-moedg",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "oraiste",
+            "english" : "orange",
+            "pronunciation" : "or-ish-cha",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "sú talún",
+            "english" : "strawberry",
+            "pronunciation" : "sue tal-oon",
+            "audio" : ""
+        },
+        {
+            "gaeilge" : "sútha talún",
+            "english" : "strawberries",
+            "pronunciation" : "sue-ha tal-oon",
+            "audio" : ""
         }
     ]
 }
