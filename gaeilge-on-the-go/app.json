@@ -36,7 +36,8 @@
       "expo-asset"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "baseUrl" : "jtcorscadden.github.io"
     }
   }
 }
